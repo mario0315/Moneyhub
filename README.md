@@ -84,16 +84,18 @@ Admin - localhost:8083
 You can trigger this endpoint using several tools like Postman.
 
 1. How might you make this service more secure?
-We need to implement authentication and authorization for making this service more secure. Generally, I use token based authentication because it has a lot of advantages compared to cookie or session based.
+
+- We need to implement authentication and authorization for making this service more secure. Generally, I use token based authentication because it has a lot of advantages compared to cookie or session based.
 
 2. How would you make this solution scale to millions of records?
-If it comes to scaling, I will pay more close attention to structuring the datebase more efficiently. In case of handling a huge number of data, I will use MongoDB which is a good fit for large system.
 
-As you know, in order to improve the backend performance significantly, we have to put more effort to designing the overal backend architecture from endpoint setting to db design. 
+- If it comes to scaling, I will pay more close attention to structuring the datebase more efficiently. In case of handling a huge number of data, I will use MongoDB which is a good fit for large system.
+
+- As you know, in order to improve the backend performance significantly, we have to put more effort to designing the overal backend architecture from endpoint setting to db design. 
 
 3. What else would you have liked to improve given more time?
 
-If I have more time to work on this project, I would love to make authentication middleware to make sure that all data and apis are safe. And then, I will implement unit testing for all of the endpoints. I will consider connecting it with real database management system.
+- If I have more time to work on this project, I would love to make authentication middleware to make sure that all data and apis are safe. And then, I will implement unit testing for all of the endpoints. I will consider connecting it with real database management system.
 
 
 
